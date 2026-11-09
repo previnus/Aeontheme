@@ -26,7 +26,7 @@ get_header();
 						<?php endif; ?>
 						<div class="post-card__body">
 							<h2 class="post-card__title t-display-tight"><a href="<?php the_permalink(); ?>"><?php echo esc_html( get_the_title() ?: __( 'Untitled', 'aeon-theme' ) ); ?></a></h2>
-							<?php the_excerpt(); ?>
+							<?php echo wp_kses_post( apply_filters( 'the_excerpt', get_the_excerpt() ) ); ?>
 						</div>
 					</article>
 				<?php endwhile; ?>
