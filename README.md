@@ -4,7 +4,7 @@ Aeon Theme is a classic WordPress theme with 40 configurable page sections. The 
 
 ## Clean install
 
-Use a fresh WordPress installation with WordPress 6.6 or later and PHP 7.4 or later. ACF PRO enables the page builder and the theme options.
+Use a fresh WordPress installation with WordPress 6.6 or later and PHP 8.2 or later. ACF PRO enables the page builder and the theme options.
 
 1. Download and extract the repository’s ZIP from **Code → Download ZIP**.
 2. Rename the extracted folder to `aeon-theme`. Check that `style.css` and `functions.php` are directly inside it.
